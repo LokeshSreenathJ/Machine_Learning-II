@@ -26,9 +26,12 @@ Building machine Learning models using Pytorch
   v. A Block with C channels.
   vi. An AdaptiveAvgPool2d which for each channel takes the average of all elements.
   vii. A Linear with C inputs and 10 output
- Experiment : Tried working with diffrent values of C = {1,2,4,64} and training the model for 4000 epochs using SGD with mini batch size 128 and step size 0.1
- Results: As the C value increases it means we are training the model with more features, which means increasing the complexity of the model. So, increasing to a far extent might lead to Overfitting the curve, where models tend to memorise the data rather than learning it. As C increases the training error reduces because we are working on reduction in loss function of training data. Whereas test error trend depends on the Overfitting or Underfitting of training data to the model.Here , On C = 1 the trend of training and test values are following a similar pattern and there is no sign of Overfitting as we have only used one channel
- ![image](https://github.com/LokeshSreenathJ/Machine_Learning/assets/115972450/6eb50c8a-e779-49ea-95e7-ebed3e21baa2)
+  
+Experiment : Tried working with diffrent values of C = {1,2,4,64} and training the model for 4000 epochs using SGD with mini batch size 128 and step size 0.1
+
+Results: As the C value increases it means we are training the model with more features, which means increasing the complexity of the model. So, increasing to a far extent might lead to Overfitting the curve, where models tend to memorise the data rather than learning it. As C increases the training error reduces because we are working on reduction in loss function of training data. Whereas test error trend depends on the Overfitting or Underfitting of training data to the model.Here , On C = 1 the trend of training and test values are following a similar pattern and there is no sign of Overfitting as we have only used one channel
+
+![image](https://github.com/LokeshSreenathJ/Machine_Learning/assets/115972450/6eb50c8a-e779-49ea-95e7-ebed3e21baa2)
 ![image](https://github.com/LokeshSreenathJ/Machine_Learning/assets/115972450/1c80260b-e794-46da-949c-412f302cdac8)
 ![C=4 Total](https://github.com/LokeshSreenathJ/Machine_Learning/assets/115972450/47ed9ec3-6486-4746-8337-fa0c0e5d9a7f)
 ![C =64 Total](https://github.com/LokeshSreenathJ/Machine_Learning/assets/115972450/49a18c0a-accf-4f8b-93a3-21d8ad1b5902)
