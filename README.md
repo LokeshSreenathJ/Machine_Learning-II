@@ -33,3 +33,7 @@ Results: As the C value increases it means we are training the model with more f
 ![C =64 Total](https://github.com/LokeshSreenathJ/Machine_Learning/assets/115972450/49a18c0a-accf-4f8b-93a3-21d8ad1b5902)
 As we currently have C = 64, that is our model is learning 64 different features, higher the complexity of the model. So the model can learn the trends quickly compared to C =4. So upon training it for more and more epochs we can see that it overfits the data. The indication is test error keeps on increasing while training error is non-increasing, the gap between them increases. This gap was present initially when model is learning all the features, once our model learns them then training and test error at each epoch remains same, upon further training it again the gap rises as test error starts to increase, because model kept trained on train data for longer time so model cannot identify the newer observation.
 
+# VAE- Varitional Auto Encoders
+ What is VAE? It's a Auto Encoder that is regularised in training to ensure continous latent space creation, so that new content can be generated. 
+ 
+ 
