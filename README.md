@@ -36,4 +36,10 @@ As we currently have C = 64, that is our model is learning 64 different features
 # VAE- Varitional Auto Encoders
  What is VAE? It's a Auto Encoder that is regularised in training to ensure continous latent space creation, so that new content can be generated. 
  
+ Implemented VAE on MNIST dataset:
+ Results:
+ 1. Samples from the Generative model looked as ![image](https://github.com/LokeshSreenathJ/Machine_Learning-II/assets/115972450/e610123d-b09b-4eab-8c00-df9ab5b1e20f)
+ 2. Latent Space Visualization ![image](https://github.com/LokeshSreenathJ/Machine_Learning-II/assets/115972450/8e0fed1f-d39b-4bbb-9613-0be7e7cf1ee3)
+ 3. Interpolation between two classes with interpolation step as 0.1 ![image](https://github.com/LokeshSreenathJ/Machine_Learning-II/assets/115972450/c56f677e-f8ee-4be9-9d59-cd21ffefea15)
+
  
